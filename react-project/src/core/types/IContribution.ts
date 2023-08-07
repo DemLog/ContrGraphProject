@@ -1,4 +1,4 @@
 export interface IContribution {
-    date: Date;
+    date?: Date;
     score: number;
 }
