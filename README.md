@@ -24,7 +24,3 @@
 ## Дизайн
 
 Макет для верстки доступен в проекте Figma по ссылке [здесь](https://www.figma.com/file/shD187YQ4zeQ6x2DGN6avE/%D0%A2%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5?type=design&node-id=2-1482&mode=design&t=M3j3U28Xq5DBHRdB-0).
-
-## Демонстрация
-
-Прототип проекта доступен для проверки по ссылке [здесь](https://www.figma.com/file/shD187YQ4zeQ6x2DGN6avE/%D0%A2%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5?type=design&node-id=2-1482&mode=design&t=M3j3U28Xq5DBHRdB-0).
