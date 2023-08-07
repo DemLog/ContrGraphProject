@@ -1,8 +1,8 @@
+import {ContributionGraph} from "@components/ContributionGraph";
 
 function App() {
   return (
-    <div>
-    </div>
+    <ContributionGraph />
   );
 }
 
