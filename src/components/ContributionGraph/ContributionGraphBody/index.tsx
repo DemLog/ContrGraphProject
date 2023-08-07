@@ -6,7 +6,7 @@ import {ContributionGraphElement} from "@components/ContributionGraph/Contributi
 
 export const ContributionGraphBody: React.FC<ContributionGraphBodyProps> = (props: ContributionGraphBodyProps) => {
     const onGetDatesByWeekday = (weekDay: number, num: number) => {
-        const currentDates = props.data.filter((el) => el.date.getDay() === weekDay);
+        const currentDates = props.data.filter((el) => el.date?.getDay() === weekDay);
         const startDate = props.minDate(num);
         const endDate = props.currentDate;
         return getDatesByWeekday(currentDates, startDate, endDate, weekDay);
@@ -26,7 +26,7 @@ export const ContributionGraphBody: React.FC<ContributionGraphBodyProps> = (prop
                                 <span>{`${value.score > 0 ? value.score : 'No'} contributions`}</span>
                             </div>
                             <div className="contribution-graph-element__date">
-                                {`${convertDate(value.date)}`}
+                                {value.date ? `${convertDate(value.date)}`: null}
                             </div>
                         </ContributionGraphElement>
                     </td>

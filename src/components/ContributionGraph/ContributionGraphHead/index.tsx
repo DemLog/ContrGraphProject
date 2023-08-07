@@ -4,10 +4,10 @@ import {MonthsEnum} from "@core/types/enums/date";
 
 export const ContributionGraphHead: React.FC<ContributionGraphHeadProps> = (props: ContributionGraphHeadProps) => {
     const getColumnSpan = (monthNum: number) => {
-        if (monthNum === MonthsEnum.Июль
-            || monthNum === MonthsEnum.Окт
-            || monthNum === MonthsEnum.Янв
-            || monthNum === MonthsEnum.Апр){
+        if (monthNum === MonthsEnum["Июль"]
+            || monthNum === MonthsEnum["Окт."]
+            || monthNum === MonthsEnum["Янв."]
+            || monthNum === MonthsEnum["Апр."]){
             return 5;
         }
 
