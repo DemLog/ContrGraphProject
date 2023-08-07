@@ -27,6 +27,7 @@
       "@core/*": ["core/*"]
     }
   },
+  "extends": "tsconfig.paths.json",
   "include": [
     "src",
     "src/core/types"
